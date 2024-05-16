@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Картхолдер "Тинькофф Банка"</title>
+    <style>
+        /* Стили для сайта */
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            background-color: #ffffff; /* светлый фон */
+            color: #000000; /* черный текст */
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #003366; /* цвет шапки сайта */
+            color: #ffffff; /* белый текст в шапке */
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #ffffff; /* белый текст ссылок */
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background-color: #003366; /* цвет подвала сайта */
+            color: #ffffff; /* белый текст в подвале */
+            text-align: center;
+            padding: 5px 0; /* уменьшаем отступ сверху и снизу вдвое */
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Стили для дополнительных страниц */
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h2 {
+            color: #003366; /* цвет заголовков */
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .benefits-list, .features-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .benefits-list li, .features-list li {
+            margin: 5px 0;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .benefits-list li::before, .features-list li::before {
+            content: "•";
+            color: #003366;
+            position: absolute;
+            left: 0;
+        }
+
+        /* Стили для видео */
+        .video-frame {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Шапка сайта -->
+    <header>
+        <h1>Картхолдер "Тинькофф Банка"</h1>
+            <p>Учебный проект "Производственной практики" ПМ.02</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="history.html">История</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Основное содержимое страницы -->
+    <main class="container">
+        <!-- Главная страница -->
+        <section id="home">
+            <h2>Общая информация</h2>
+            <p>Картхолдер от Тинькофф - это стильный и удобный аксессуар для хранения ваших банковских карт. Он изготовлен из качественных материалов и обеспечивает надежную защиту карт от повреждений и потери.</p>
+            
+            <h2>Характеристики</h2>
+            <ul class="features-list">
+                <li>Материал: натуральная кожа</li>
+                <li>Количество отделений для карт: 6</li>
+                <li>Цвет: черный</li>
+            </ul>
+
+            <h2>Преимущества</h2>
+            <ul class="benefits-list">
+                <li>Компактный размер</li>
+                <li>Стильный дизайн</li>
+                <li>Высокое качество изготовления</li>
+            </ul>
+            
+                    <!-- Раздел Видеообзор -->
+        <section id="video-review">
+            <h2>Видеообзор</h2>
+            <!-- Вставлено видео -->
+            <iframe width="800" height="450" src="https://www.youtube.com/embed/xiGXv9OflzI" title="ЭВОЛЮЦИЯ ТИНЬКОФФ - КАК МЕНЯЛИСЬ КАРДХОЛДЕРЫ? КАКОЙ КАРДХОЛДЕР ЛУЧШЕ?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+
+        </section>
+    </main>
+
+    <!-- Подвал сайта -->
+    <footer>
+        <p>&copy; 2024 Картхолдер "Тинькофф Банка"</p>
+    </footer>
+</body>
+
+</html>
